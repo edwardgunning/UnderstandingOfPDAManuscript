@@ -1,14 +1,12 @@
 ---
-title: "Code for the manuscript 'An Understanding of Principal Differential Analysis'"
+title: "Code for the Manuscript: 'An Understanding of Principal Differential Analysis'"
 output: github_document
-author: "Edward Gunning and Giles Hooker"
+author: "by Edward Gunning and Giles Hooker"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-This repository contains code and data for the paper titled 'An Understanding of Principal Differential Analysis' by Edward Gunning and Giles Hooker.
 
 <!-- ![](outputs/SHM/paper-plots/3d-phase-plane.pdf) -->
 
@@ -16,4 +14,5 @@ This repository contains code and data for the paper titled 'An Understanding of
 knitr::include_graphics("outputs/SHM/paper-plots/3d-phase-plane.png")
 ```
 
+This repository contains code and data for the paper titled 'An Understanding of Principal Differential Analysis' by Edward Gunning and Giles Hooker.
 
