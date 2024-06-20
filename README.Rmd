@@ -1,7 +1,6 @@
 ---
 title: "Code for the Manuscript: 'An Understanding of Principal Differential Analysis'"
 output: github_document
-author: "by Edward Gunning and Giles Hooker"
 ---
 
 ```{r setup, include=FALSE}
@@ -14,5 +13,36 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::include_graphics("outputs/SHM/paper-plots/3d-phase-plane.png")
 ```
 
-This repository contains code and data for the paper titled 'An Understanding of Principal Differential Analysis' by Edward Gunning and Giles Hooker.
+---
+
+# Welcome
+
+This repository contains code and data for the manuscript __*'An Understanding of Principal Differential Analysis'*__ by [Edward Gunning](https://edwardgunning.github.io/) and [Giles Hooker](http://www.gileshooker.com/). (*add ArxIv link to paper*)
+
+---
+
+# Repository Structure
+
+* 📂 [**code**](code/)
+  * 📄 contains R scripts with analysis and functions for the paper
+  * 📂 [**paper-figures**](code/paper-figures/) R scripts to generate figures from the paper
+
+---
+
+# References
+
+* Ramsay, J. O. (1996). Principal Differential Analysis: Data Reduction by Differential Operators. Journal of the Royal Statistical Society. Series B (Methodological), 58(3), 495–508.
+
+---
+
+# Computing Information
+
+```{r}
+R.version
+sessionInfo()
+```
+
+
+
+
 
