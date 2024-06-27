@@ -20,9 +20,16 @@ Hooker](http://www.gileshooker.com/). (*add ArxIv link to paper*)
 # Repository Structure
 
 - 📂 [**code**](code/)
-  - 📄 contains R scripts with analysis and functions for the paper
+  - 📄 contains R scripts with analysis and functions for the paper –
+    the simple harmonic motion (SHM) model, the van der Pol (VdP) model
+    and the real data analysis of the runner’s centre of mass (COM).
   - 📂 [**paper-figures**](code/paper-figures/) R scripts to generate
-    figures from the paper
+    figures from the paper including the simple harmonic motion (SHM)
+    model, the van der Pol (VdP) model and the real data analysis of the
+    runner’s centre of mass (COM).
+- 📂 [**data**](data/)
+  - data for the analysis of running kinematics. We are very grateful to
+    Prof. Kieran Moran for providing this dataset.
 
 ------------------------------------------------------------------------
 
@@ -79,3 +86,15 @@ sessionInfo()
     ##  [5] htmltools_0.5.5 rstudioapi_0.13 yaml_2.3.5      rmarkdown_2.27 
     ##  [9] highr_0.11      knitr_1.47      xfun_0.44       digest_0.6.29  
     ## [13] rlang_1.1.1     png_0.1-7       evaluate_0.15
+
+``` r
+packageVersion(pkg = "fda")
+```
+
+    ## [1] '5.5.1'
+
+``` r
+packageVersion(pkg = "deSolve")
+```
+
+    ## [1] '1.30'

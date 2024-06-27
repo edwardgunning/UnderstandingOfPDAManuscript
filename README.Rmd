@@ -24,8 +24,11 @@ This repository contains code and data for the manuscript __*'An Understanding o
 # Repository Structure
 
 * 📂 [**code**](code/)
-  * 📄 contains R scripts with analysis and functions for the paper
-  * 📂 [**paper-figures**](code/paper-figures/) R scripts to generate figures from the paper
+  * 📄 contains R scripts with analysis and functions for the paper -- the simple harmonic motion (SHM) model, the van der Pol (VdP) model and the real data analysis of the runner's centre of mass (COM).
+  * 📂 [**paper-figures**](code/paper-figures/) R scripts to generate figures from the paper including the simple harmonic motion (SHM) model, the van der Pol (VdP) model and the real data analysis of the runner's centre of mass (COM).
+
+* 📂 [**data**](data/)
+  * data for the analysis of running kinematics. We are very grateful to Prof. Kieran Moran for providing this dataset.
 
 ---
 
@@ -40,9 +43,7 @@ This repository contains code and data for the manuscript __*'An Understanding o
 ```{r}
 R.version
 sessionInfo()
+packageVersion(pkg = "fda")
+packageVersion(pkg = "deSolve")
 ```
-
-
-
-
 
