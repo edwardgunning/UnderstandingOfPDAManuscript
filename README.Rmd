@@ -17,7 +17,7 @@ knitr::include_graphics("outputs/SHM/paper-plots/3d-phase-plane.png")
 
 # Welcome
 
-This repository contains code and data for the manuscript __*'An Understanding of Principal Differential Analysis'*__ by [Edward Gunning](https://edwardgunning.github.io/) and [Giles Hooker](http://www.gileshooker.com/). (*add ArxIv link to paper*)
+This repository contains code and data for the manuscript __*'An Understanding of Principal Differential Analysis'*__ by [Edward Gunning](https://edwardgunning.github.io/) and [Giles Hooker](http://www.gileshooker.com/) ([arXiv link](https://arxiv.org/abs/2406.18484)).
 
 ---
 
