@@ -8,7 +8,7 @@ resid <- pda_results$pda_result$resid
 milliseconds <- prepared_data$milliseconds
 beta_hat <- pda_results$pda_result$beta
 source("code/simulate_from_model_funs.R")
-source("PDA-2-pw-general.R")
+source("code/PDA-2-pw-general.R")
 
 set.seed(1)
 simulated_dataset_final <- generate_com_dataset_general(n = N, 

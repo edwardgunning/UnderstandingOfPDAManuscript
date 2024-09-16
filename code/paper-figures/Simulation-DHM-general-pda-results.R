@@ -5,7 +5,7 @@
 
 # Load necessary functions and packages: ----------------------------------
 source(here::here("code", "SHM-helper-functions.R"))
-source(here::here("DHM-general-data-generation.R"))
+source(here::here("code", "DHM-general-data-generation.R"))
 library(fda) # Functional Data Analysis, CRAN v5.5.1
 library(data.table) # CRAN v1.14.2
 library(ggplot2)    # CRAN v3.4.0
